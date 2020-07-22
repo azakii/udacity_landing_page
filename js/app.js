@@ -26,10 +26,10 @@ for (let i = 0; i < listItem.length; i++) {
 // change active class when scrolling
 
 window.addEventListener('scroll', activeSection = () => {
-        let index = sectionBlocks.length;    
-        while(--index && window.scrollY + 200 < sectionBlocks[index].offsetTop) {}
+        let i = sectionBlocks.length;    
+        while(--i && window.scrollY + 100 < sectionBlocks[i].offsetTop) {}
         listItem.forEach((listItem) => listItem.classList.remove('active'));
-        listItem[index].classList.add('active');
+        listItem[i].classList.add('active');
     }
 );
 
