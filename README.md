@@ -13,4 +13,4 @@ I Created new file path `js/app.js` and linked it through the `index.html` then 
 
 ## To clone the project
 
-Just `git clone https://github.com/azakii/udacity_landing_page.git` OR for Download just [Download Here](https://github.com/azakii/udacity_landing_page/archive/master.zip)
+Just `git clone https://github.com/azakii/udacity_landing_page.git` OR [Download Here](https://github.com/azakii/udacity_landing_page/archive/master.zip)
